@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ritik Gupta — iOS Engineer · Swift, SwiftUI & Mobile Security</title>
+  <meta name="description" content="Ritik Gupta is an iOS engineer at IDEMIA with 4+ years building production Swift/SwiftUI apps for security-critical products: crypto wallets, hardware-backed key storage and secure app-to-server architecture." />
+  <meta name="author" content="Ritik Gupta" />
+  <meta name="theme-color" content="#0b0c0e" />
+
+  <!-- Open Graph / social previews -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ritik Gupta — iOS Engineer · Swift, SwiftUI & Mobile Security" />
+  <meta property="og:description" content="4+ years at IDEMIA shipping secure iOS apps: crypto wallet SDK, Secure Element & Keychain, app-to-server architecture." />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Apply saved theme before paint to avoid a flash -->
+  <script>
+    try {
+      const t = localStorage.getItem("theme");
+      if (t) document.documentElement.dataset.theme = t;
+      else if (matchMedia("(prefers-color-scheme: light)").matches) document.documentElement.dataset.theme = "light";
+    } catch (e) {}
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ritik Gupta",
+    "jobTitle": "iOS Engineer",
+    "worksFor": { "@type": "Organization", "name": "IDEMIA" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Noida", "addressCountry": "IN" },
+    "alumniOf": "Lovely Professional University",
+    "knowsAbout": ["Swift", "SwiftUI", "iOS", "Mobile Security", "Secure Element", "Keychain", "Web3", "Application Architecture"],
+    "sameAs": ["https://www.linkedin.com/in/ritikgupta1220"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true"><div class="bg-grid"></div><div class="bg-glow"></div></div>
+
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Ritik Gupta, home">
+        <span class="brand-mark">RG</span>
+        <span class="brand-name">Ritik Gupta</span>
+      </a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="cmdk-trigger" id="cmdk-open" type="button" aria-label="Open command menu" aria-keyshortcuts="Meta+K Control+K">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <kbd>⌘K</kbd>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle color theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+        </button>
+        <a class="btn btn-sm btn-primary nav-cta" href="assets/Ritik_Gupta_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+        <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="status reveal"><span class="pulse"></span>Open to iOS &amp; mobile security roles</p>
+        <h1 class="hero-title reveal" aria-label="I build iOS apps that are secure by design.">
+          <span aria-hidden="true">I build iOS apps that are<br />
+          <em class="serif scramble">secure by design.</em></span>
+        </h1>
+        <p class="hero-lede reveal">
+          I'm an iOS engineer at <strong>IDEMIA</strong> with 4+ years shipping production
+          Swift and SwiftUI apps where security is a requirement: a multi-chain crypto
+          wallet and SDK, hardware-backed key storage, and the app-to-server architecture
+          that connects them.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="#projects">See case studies
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="assets/Ritik_Gupta_Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+        </div>
+        <div class="trust reveal">
+          <span class="trust-label">Built for &amp; with</span>
+          <ul>
+            <li><strong>IDEMIA</strong><span>Employer</span></li>
+            <li><strong>Qualcomm</strong><span>Collaboration</span></li>
+            <li><strong>Infineon</strong><span>Client</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="window tilt">
+          <div class="window-bar">
+            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+            <span class="window-title">Engineer.swift</span>
+          </div>
+<pre class="code"><code><span class="ln"><span class="k">struct</span> <span class="t">Engineer</span> {</span>
+<span class="ln">  <span class="k">let</span> name = <span class="s">"Ritik Gupta"</span></span>
+<span class="ln">  <span class="k">let</span> focus: [<span class="t">Domain</span>] = [<span class="p">.iOS</span>, <span class="p">.security</span>, <span class="p">.web3</span>]</span>
+<span class="ln"></span>
+<span class="ln">  <span class="k">func</span> <span class="f">ship</span>(<span class="k">_</span> idea: <span class="t">Idea</span>) <span class="k">async throws</span> -&gt; <span class="t">App</span> {</span>
+<span class="ln">    <span class="k">try await</span> <span class="f">architect</span>(idea)</span>
+<span class="ln">      .<span class="f">secured</span>(by: <span class="p">.secureElement</span>)</span>
+<span class="ln">      .<span class="f">tested</span>(coverage: <span class="n">0.9</span>)</span>
+<span class="ln">      .<span class="f">release</span>()</span>
+<span class="ln">  }</span>
+<span class="ln">}</span><span class="caret"></span></code></pre>
+        </div>
+        <div class="chip chip-a"><span class="chip-ico">🔐</span>Secure Element · Keychain</div>
+        <div class="chip chip-b"><span class="chip-ico">⛓</span>ETH · Polygon · BSC</div>
+
+        <!-- SwiftUI "canvas" preview: an illustrative wallet screen -->
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="island"></div>
+            <div class="ios-status"><span>9:41</span><span class="ios-icons"><i></i><i></i><i></i><b></b></span></div>
+            <div class="w-head"><span>Wallet</span><span class="w-avatar">RG</span></div>
+            <div class="w-balance">
+              <span class="w-label">Total balance</span>
+              <span class="w-amount">$24,810<small>.52</small></span>
+              <span class="w-delta">▲ 2.4% today</span>
+              <svg class="w-spark" viewBox="0 0 200 40" preserveAspectRatio="none"><path d="M0 32 L20 28 L40 30 L60 22 L80 24 L100 16 L120 19 L140 11 L160 14 L180 6 L200 8"/></svg>
+            </div>
+            <div class="w-actions"><span><i>↑</i>Send</span><span><i>↓</i>Receive</span><span><i>⇄</i>Swap</span></div>
+            <ul class="w-assets">
+              <li><i class="coin c-eth">Ξ</i><div><b>Ethereum</b><small>ETH</small></div><span>4.20</span></li>
+              <li><i class="coin c-pol">⬡</i><div><b>Polygon</b><small>POL</small></div><span>1,850</span></li>
+              <li><i class="coin c-bnb">◆</i><div><b>BNB Chain</b><small>BNB</small></div><span>12.6</span></li>
+            </ul>
+            <div class="w-secure"><span class="w-lock">🔒</span>Keys in Secure Element</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="container">
+      <dl class="stats reveal">
+        <div><dt>Years building for iOS &amp; secure hardware</dt><dd><span data-count="4">0</span>+</dd></div>
+        <div><dt>Fewer network calls after my architecture redesign</dt><dd><span data-count="40">0</span>%</dd></div>
+        <div><dt>Test coverage on security-critical modules</dt><dd><span data-count="90">0</span>%</dd></div>
+        <div><dt>Blockchains behind one transaction API</dt><dd><span data-count="3">0</span></dd></div>
+      </dl>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <header class="section-head reveal">
+        <span class="eyebrow">01 — About</span>
+        <h2>An iOS engineer who <em class="serif">understands the hardware.</em></h2>
+      </header>
+      <div class="bento">
+        <div class="tile tile-story card reveal">
+          <p>
+            Most iOS engineers start at the UI. I started at the <strong>SIM card operating
+            system</strong>, working with GlobalPlatform, JavaCard and ETSI/3GPP standards.
+            That background changes how I build apps: I design the threat model and data flow
+            first, then build a SwiftUI experience on top of it.
+          </p>
+          <p>
+            At IDEMIA I own features from <strong>architecture (LLD) to App Store release</strong>.
+            I design how the app talks to backend microservices, keep keys in the
+            <strong>Secure Element and Keychain</strong>, and write tests so that
+            security-critical code stays correct as it changes.
+          </p>
+          <p>
+            I'm looking for a team where security and product quality both matter, such as
+            fintech, wallets, identity, automotive or enterprise mobile. I can work across
+            the app, the SDK and the secure hardware underneath.
+          </p>
+        </div>
+
+        <aside class="tile tile-glance glance card reveal" aria-label="At a glance">
+          <h3>At a glance</h3>
+          <dl>
+            <div><dt>Current role</dt><dd>Software Engineer, IDEMIA</dd></div>
+            <div><dt>Experience</dt><dd>4+ years (since Feb 2022)</dd></div>
+            <div><dt>Core stack</dt><dd>Swift · SwiftUI · UIKit · Combine</dd></div>
+            <div><dt>Specialty</dt><dd>Mobile security · App architecture · Web3</dd></div>
+            <div><dt>Also ships</dt><dd>Android (Kotlin/Java) · JavaCard</dd></div>
+            <div><dt>Based in</dt><dd>Noida, India</dd></div>
+            <div><dt>Education</dt><dd>B.Tech CS, Lovely Professional University</dd></div>
+          </dl>
+          <a class="btn btn-primary btn-block" href="#contact">Get in touch</a>
+        </aside>
+
+        <!-- 01: shipping pipeline -->
+        <div class="tile tile-ship card spot reveal">
+          <div class="tile-head"><span class="pillar-ico">01</span><h3>I ship production apps</h3></div>
+          <p>I've led secure iOS apps for enterprise clients in Swift, SwiftUI and MVVM/Coordinator, from design to release.</p>
+          <ol class="pipeline" aria-label="Delivery pipeline">
+            <li>Design</li><li>LLD</li><li>Build</li><li>Test</li><li>TestFlight</li><li class="done">Release ✓</li>
+          </ol>
+        </div>
+
+        <!-- 03: secure element chip -->
+        <div class="tile tile-sec card spot reveal">
+          <div class="tile-head"><span class="pillar-ico">02</span><h3>I build security in</h3></div>
+          <div class="chip-viz" aria-hidden="true">
+            <span class="ring r1"></span><span class="ring r2"></span>
+            <svg viewBox="0 0 80 80">
+              <g class="pins"><path d="M26 8v10M40 8v10M54 8v10M26 62v10M40 62v10M54 62v10M8 26h10M8 40h10M8 54h10M62 26h10M62 40h10M62 54h10"/></g>
+              <rect x="18" y="18" width="44" height="44" rx="8" class="die"/>
+              <rect x="33" y="38" width="14" height="11" rx="2" class="lock"/>
+              <path d="M36 38v-4a4 4 0 0 1 8 0v4" class="lock-arc"/>
+            </svg>
+          </div>
+          <p>Keys live in the Secure Element and Keychain, not in app memory.</p>
+        </div>
+
+        <!-- 04: coverage ring -->
+        <div class="tile tile-quality card spot reveal">
+          <div class="tile-head"><span class="pillar-ico">03</span><h3>I raise the bar</h3></div>
+          <div class="ring-viz">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle cx="50" cy="50" r="42" class="ring-bg"/>
+              <circle cx="50" cy="50" r="42" class="ring-fg"/>
+            </svg>
+            <div class="ring-label"><strong>90%</strong><span>coverage</span></div>
+          </div>
+          <p>Python + XCTest automation on security-critical code, and 3 junior developers mentored.</p>
+        </div>
+
+        <!-- 02: network calls -->
+        <div class="tile tile-arch card spot reveal">
+          <div class="tile-head"><span class="pillar-ico">04</span><h3>I design the architecture</h3></div>
+          <p>My app-to-server LLD, with request batching and a unified data flow, cut network calls by 40%.</p>
+          <div class="bars" aria-label="Network calls before and after: 100% to 60%">
+            <div class="bar-row"><span>Before</span><div class="bar"><i class="bar-before"></i></div><em>100%</em></div>
+            <div class="bar-row"><span>After</span><div class="bar"><i class="bar-after"></i></div><em>60%</em></div>
+          </div>
+        </div>
+
+        <!-- Now -->
+        <div class="tile tile-now card spot reveal">
+          <div class="tile-head"><span class="pulse"></span><h3>Currently</h3></div>
+          <p>Leading iOS on a <strong>multi-chain crypto wallet</strong> at IDEMIA, and researching <strong>self-custodial identity for AI agents</strong> (patent in preparation).</p>
+          <div class="now-meta">
+            <span>📍 Noida, India</span>
+            <span>🕒 <time id="local-time">--:--</time> IST</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <header class="section-head reveal">
+        <span class="eyebrow">02 — Case studies</span>
+        <h2>Selected work and <em class="serif">its impact.</em></h2>
+        <p class="section-sub">Client and employer projects, so there's no source code to link. Below is what I worked on, what I built, and how it turned out.</p>
+      </header>
+
+      <div class="projects">
+        <article class="project card spot featured reveal">
+          <div class="project-top">
+            <span class="project-kicker">IDEMIA · Jun 2025 — Present · iOS lead &amp; architect</span>
+            <span class="badge">Featured</span>
+          </div>
+          <h3>CryptoWallet iOS App &amp; SDK</h3>
+          <p class="project-desc">
+            A hardware-wallet SDK and a SwiftUI wallet app for managing assets and signing
+            transactions across Ethereum, Polygon and BSC, later taken to Android.
+          </p>
+
+          <div class="case">
+            <div class="case-col">
+              <h4>The challenge</h4>
+              <p>Every app that used the hardware wallet had to handle low-level, chain-specific blockchain calls itself, and the app was making more server round-trips than it needed.</p>
+            </div>
+            <div class="case-col">
+              <h4>What I did</h4>
+              <ul class="bullets">
+                <li>Designed a modular, plug-and-play <strong>iOS SDK</strong> that hides blockchain complexity behind one API</li>
+                <li>Wrote the <strong>app-to-server LLD</strong>, with request batching and a unified data flow</li>
+                <li>Built the <strong>SwiftUI</strong> asset and transaction flows, with real-time validation</li>
+                <li>Integrated <strong>JSON-RPC and Web3</strong> for secure node communication</li>
+                <li>Extended the product to <strong>Android</strong> (Kotlin, Java, Room)</li>
+              </ul>
+            </div>
+          </div>
+
+          <figure class="diagram">
+            <figcaption>Simplified architecture</figcaption>
+            <div class="diagram-scroll">
+              <svg viewBox="0 0 760 230" role="img" aria-label="SwiftUI app talks to the Wallet SDK. The SDK signs with the hardware wallet's secure element, reaches Ethereum, Polygon and BSC over JSON-RPC and Web3, and sends batched requests to backend microservices.">
+                <defs>
+                  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" class="d-arrow"/></marker>
+                </defs>
+                <!-- edges -->
+                <path class="d-edge" d="M170 115 H222" marker-end="url(#arrow)"/>
+                <path class="d-edge" d="M372 100 C 410 100, 410 45, 450 45" marker-end="url(#arrow)"/>
+                <path class="d-edge" d="M372 130 C 410 130, 410 185, 450 185" marker-end="url(#arrow)"/>
+                <path class="d-edge" d="M600 185 H622" marker-end="url(#arrow)"/>
+                <path class="d-edge d-dim" d="M600 45 H622" marker-end="url(#arrow)"/>
+                <!-- edge labels -->
+                <text class="d-lbl" x="196" y="104" text-anchor="middle">Swift API</text>
+                <text class="d-lbl" x="412" y="62" text-anchor="middle">sign</text>
+                <text class="d-lbl" x="412" y="176" text-anchor="middle">batched</text>
+
+                <!-- nodes -->
+                <g class="d-node"><rect x="20" y="85" width="150" height="60" rx="12"/><text x="95" y="112" text-anchor="middle" class="d-t">SwiftUI App</text><text x="95" y="130" text-anchor="middle" class="d-s">MVVM · Coordinator</text></g>
+                <g class="d-node d-hero"><rect x="222" y="75" width="150" height="80" rx="14"/><text x="297" y="108" text-anchor="middle" class="d-t">Wallet SDK</text><text x="297" y="126" text-anchor="middle" class="d-s">plug-and-play</text><text x="297" y="141" text-anchor="middle" class="d-s">multi-chain</text></g>
+                <g class="d-node d-secure"><rect x="450" y="15" width="150" height="60" rx="12"/><text x="525" y="42" text-anchor="middle" class="d-t">Hardware wallet</text><text x="525" y="60" text-anchor="middle" class="d-s">🔒 Secure Element</text></g>
+                <g class="d-node"><rect x="450" y="155" width="150" height="60" rx="12"/><text x="525" y="182" text-anchor="middle" class="d-t">Request batching</text><text x="525" y="200" text-anchor="middle" class="d-s">unified data flow</text></g>
+                <g class="d-node"><rect x="622" y="15" width="124" height="60" rx="12"/><text x="684" y="42" text-anchor="middle" class="d-t">Chains</text><text x="684" y="60" text-anchor="middle" class="d-s">JSON-RPC · Web3</text></g>
+                <g class="d-node"><rect x="622" y="155" width="124" height="60" rx="12"/><text x="684" y="182" text-anchor="middle" class="d-t">Microservices</text><text x="684" y="200" text-anchor="middle" class="d-s d-good">−40% calls</text></g>
+              </svg>
+            </div>
+          </figure>
+
+          <div class="project-metrics">
+            <div><strong>−40%</strong><span>network calls after the architecture redesign</span></div>
+            <div><strong>3 chains</strong><span>one unified transaction interface</span></div>
+            <div><strong>iOS + Android</strong><span>feature parity across both platforms</span></div>
+          </div>
+          <ul class="tags"><li>Swift</li><li>SwiftUI</li><li>SDK design</li><li>MVVM-C</li><li>JSON-RPC</li><li>Web3</li><li>Kotlin</li></ul>
+        </article>
+
+        <article class="project card spot reveal">
+          <div class="project-top">
+            <span class="project-kicker">Client: Infineon · Aug 2024 — Apr 2025</span>
+          </div>
+          <h3>Digital Car Key: Secure Element Applet</h3>
+          <p class="project-desc">
+            Turning a phone into a car key requires cryptographic keys that never leave secure
+            hardware and that comply with the Car Connectivity Consortium (CCC) specification.
+          </p>
+          <ul class="bullets">
+            <li>Developed the <strong>JavaCard applet</strong> for secure key storage and cryptographic operations</li>
+            <li>Implemented <strong>GlobalPlatform SCP</strong> for authenticated, encrypted communication with the host</li>
+            <li>Handled key generation, <strong>mutual authentication</strong> and the full key lifecycle</li>
+          </ul>
+          <p class="outcome"><span>Outcome</span>A CCC Digital Key–compliant applet for secure vehicle access</p>
+          <ul class="tags"><li>JavaCard</li><li>CCC Digital Key</li><li>GlobalPlatform SCP</li><li>Crypto</li></ul>
+        </article>
+
+        <article class="project card spot reveal">
+          <div class="project-top">
+            <span class="project-kicker">Independent research · Mar 2026 — Present</span>
+            <span class="badge badge-muted">Patent in preparation</span>
+          </div>
+          <h3>Blockchain Identity for AI Agents</h3>
+          <p class="project-desc">
+            As AI agents start acting and paying on people's behalf, they need a verifiable
+            identity. I'm designing one that is self-custodial and deterministic.
+          </p>
+          <ul class="bullets">
+            <li>An identity standard built on <strong>HD wallet key derivation</strong> that extends existing agent-identity frameworks</li>
+            <li>A <strong>payment credentialing layer</strong> that links verified on-chain identity to traditional (Web2) payment systems</li>
+          </ul>
+          <p class="outcome"><span>Status</span>Technical details withheld until the patent is filed</p>
+          <ul class="tags"><li>HD wallets</li><li>Web3 identity</li><li>AI agents</li><li>Payments</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section container" id="experience">
+      <header class="section-head reveal">
+        <span class="eyebrow">03 — Experience</span>
+        <h2>Where I've <em class="serif">worked.</em></h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="tl-item reveal">
+          <div class="tl-meta">
+            <span class="tl-date">Aug 2022 — Present</span>
+            <span class="tl-loc">IDEMIA · Noida</span>
+          </div>
+          <div class="tl-body card">
+            <h3>Software Engineer <span class="at">@ IDEMIA</span></h3>
+            <p class="tl-summary">I own secure iOS apps for enterprise clients end to end: architecture, cryptography, testing and release.</p>
+            <ul class="bullets">
+              <li><strong>Architecture:</strong> designed the app-to-server communication LLD for a production crypto wallet, covering data flow, state management and secure integration across multiple microservices.</li>
+              <li><strong>Delivery:</strong> led secure iOS apps in Swift, SwiftUI and MVVM/Coordinator from design to production release for enterprise clients.</li>
+              <li><strong>Security:</strong> architected key management, encryption/decryption and MAC generation using the Secure Element and iOS Keychain.</li>
+              <li><strong>Quality:</strong> built Python and XCTest automation that reached <strong>90% coverage</strong> on security-critical modules and UI.</li>
+              <li><strong>Leadership:</strong> mentored <strong>3 junior developers</strong> on iOS architecture, secure coding and GlobalPlatform/ETSI/GSMA compliance.</li>
+              <li><strong>Partners:</strong> collaborated with <strong>Qualcomm</strong> on processor-integrated SIM technology.</li>
+            </ul>
+            <ul class="tags"><li>Swift</li><li>SwiftUI</li><li>MVVM-C</li><li>Keychain</li><li>Secure Element</li><li>XCTest</li></ul>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-meta">
+            <span class="tl-date">Feb 2022 — Jul 2022</span>
+            <span class="tl-loc">IDEMIA · Noida</span>
+            <span class="promo">↑ Promoted after 6 months</span>
+          </div>
+          <div class="tl-body card">
+            <h3>Associate Software Engineer <span class="at">@ IDEMIA</span></h3>
+            <p class="tl-summary">Learned security engineering at the lowest layer, inside the SIM card OS.</p>
+            <ul class="bullets">
+              <li>Worked on core SIM OS components: Framework, Toolkit and GlobalPlatform.</li>
+              <li>Implemented secure key management and encryption protocols.</li>
+              <li>Built features compliant with ETSI 102 221 / 3GPP TS 31.101, ETSI 102 223 and ETSI 102 225/226 (OTA).</li>
+            </ul>
+            <ul class="tags"><li>JavaCard</li><li>GlobalPlatform</li><li>ETSI / 3GPP</li><li>Cryptography</li></ul>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-meta">
+            <span class="tl-date">2018 — 2022</span>
+            <span class="tl-loc">Phagwara, India</span>
+          </div>
+          <div class="tl-body card">
+            <h3>B.Tech, Computer Science <span class="at">@ Lovely Professional University</span></h3>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <header class="section-head reveal">
+        <span class="eyebrow">04 — Toolkit</span>
+        <h2>What I <em class="serif">work with.</em></h2>
+      </header>
+
+      <div class="skills">
+        <div class="skill-group skill-core card reveal">
+          <h3>Core: iOS <span class="skill-note">daily, in production</span></h3>
+          <ul class="tags"><li>Swift</li><li>SwiftUI</li><li>UIKit</li><li>Combine</li><li>SwiftData</li><li>CoreData</li><li>CoreBluetooth</li><li>XCTest</li><li>Swift Package Manager</li><li>Instruments</li><li>TestFlight</li><li>App Store Connect</li></ul>
+        </div>
+        <div class="skill-group card reveal">
+          <h3>Architecture</h3>
+          <ul class="tags"><li>App–Server Comms Design</li><li>LLD</li><li>MVVM</li><li>Coordinator</li><li>Protocol-Oriented</li><li>Dependency Injection</li></ul>
+        </div>
+        <div class="skill-group card reveal">
+          <h3>Security</h3>
+          <ul class="tags"><li>Key Management</li><li>Encryption</li><li>Secure Element</li><li>Keychain</li><li>JavaCard</li><li>GlobalPlatform SCP</li><li>OAuth 2.0</li><li>SSL/TLS</li></ul>
+        </div>
+        <div class="skill-group card reveal">
+          <h3>Networking &amp; Web3</h3>
+          <ul class="tags"><li>URLSession</li><li>REST</li><li>JSON-RPC</li><li>WebSocket</li><li>Web3</li><li>Solidity</li></ul>
+        </div>
+        <div class="skill-group card reveal">
+          <h3>Also &amp; tooling</h3>
+          <ul class="tags"><li>Kotlin</li><li>Java</li><li>Room</li><li>Python</li><li>JavaScript</li><li>Git</li><li>CI/CD</li><li>Figma</li><li>JIRA</li><li>Claude</li><li>ChatGPT</li><li>GitHub Copilot</li></ul>
+        </div>
+      </div>
+
+      <div class="marquee reveal" aria-label="Standards I've worked with">
+        <div class="marquee-track">
+          <span>ETSI 102 221</span><span>3GPP TS 31.101</span><span>ETSI 102 223</span><span>ETSI 102 225/226</span><span>GlobalPlatform</span><span>GSMA</span><span>CCC Digital Key</span><span>OAuth 2.0</span>
+          <span aria-hidden="true">ETSI 102 221</span><span aria-hidden="true">3GPP TS 31.101</span><span aria-hidden="true">ETSI 102 223</span><span aria-hidden="true">ETSI 102 225/226</span><span aria-hidden="true">GlobalPlatform</span><span aria-hidden="true">GSMA</span><span aria-hidden="true">CCC Digital Key</span><span aria-hidden="true">OAuth 2.0</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact card reveal">
+        <span class="eyebrow">05 — Contact</span>
+        <h2>Hiring for iOS or <em class="serif">mobile security?</em></h2>
+        <p>I'm open to iOS engineer and mobile security roles, especially in fintech, wallets, identity and automotive. Email is the fastest way to reach me.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary btn-lg" href="mailto:ritikgupta1220@outlook.com?subject=Opportunity%20for%20Ritik%20Gupta">Email me</a>
+          <button class="btn btn-ghost btn-lg" type="button" id="copy-email" data-email="ritikgupta1220@outlook.com">Copy email</button>
+        </div>
+        <ul class="hero-links">
+          <li><a href="mailto:ritikgupta1220@outlook.com">ritikgupta1220@outlook.com</a></li>
+          <li><a href="https://www.linkedin.com/in/ritikgupta1220" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><a href="assets/Ritik_Gupta_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF) ↗</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year">2026</span> Ritik Gupta</span>
+    <span class="footer-note">Built with plain HTML, CSS &amp; JS · Hosted on GitHub Pages</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Command palette (⌘K / Ctrl+K) -->
+  <div class="cmdk" id="cmdk" hidden>
+    <div class="cmdk-backdrop" data-close></div>
+    <div class="cmdk-panel" role="dialog" aria-modal="true" aria-label="Command menu">
+      <div class="cmdk-search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="cmdk-input" type="text" placeholder="Type a command or search…" autocomplete="off" spellcheck="false"
+               role="combobox" aria-expanded="true" aria-controls="cmdk-list" aria-autocomplete="list" />
+        <kbd>esc</kbd>
+      </div>
+      <ul class="cmdk-list" id="cmdk-list" role="listbox" aria-label="Commands"></ul>
+      <div class="cmdk-foot"><span><kbd>↑</kbd><kbd>↓</kbd> navigate</span><span><kbd>↵</kbd> select</span></div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
